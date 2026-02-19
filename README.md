@@ -18,22 +18,6 @@
 - **Сериализация:** Newtonsoft.Json
 - **UI:** XAML, стили без использования сторонних библиотек
 
-## Структура проекта
-TaskManagerWPF/
-├── Converters/ # (опционально, в финальной версии не используются)
-├── Models/ # Классы данных
-│ ├── Category.cs
-│ ├── Priority.cs (enum)
-│ └── TaskItem.cs
-├── Services/ # Сервис работы с данными
-│ └── DataService.cs
-├── App.xaml # Ресурсы приложения
-├── MainWindow.xaml # Главное окно (список задач, фильтры)
-├── MainWindow.xaml.cs
-├── TaskWindow.xaml # Окно добавления/редактирования задачи
-├── TaskWindow.xaml.cs
-└── packages.config # NuGet-пакеты (Newtonsoft.Json)
-
 
 ## Установка и запуск
 
